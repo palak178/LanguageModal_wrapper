@@ -312,3 +312,4 @@ llm_wrapper = LLMWrapper(API_KEY, model_type="Completion")
 prompt = "Once upon a time in a village, far away"
 response = llm_wrapper.generate_response_with_dynamic_prompt(prompt)
 print("Generated Response:", response)
+
